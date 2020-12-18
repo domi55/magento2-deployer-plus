@@ -25,6 +25,7 @@ desc('Generate Magento Files');
 task('files:generate', [
     'files:compile',
     'files:optimize-autoloader',
-    'files:static_assets',
-    'files:permissions',
+    'files:static_assets'
 ]);
+
+//'files:permissions',
